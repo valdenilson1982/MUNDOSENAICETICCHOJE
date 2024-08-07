@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ModularFirstPersonController/DemoScene/GamePlayer 1.unity
+    guid: 30d62d4d89f1ec7449261c4b7f8c5ea6
+  - enabled: 1
+    path: Assets/ModularFirstPersonController/DemoScene/GamePlayer.unity
+    guid: 33d2c03d9c72d6a4a8d0fe4c0b5630bd
+  m_configObjects: {}

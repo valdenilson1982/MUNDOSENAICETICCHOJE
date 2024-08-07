@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c2b4d27d168c3f44ab43e3015678d079
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - parent: {instanceID: 0}
+  - MaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
+  - FemaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
+  - maleImage: {instanceID: 0}
+  - femaleImage: {instanceID: 0}
+  - characterTemplate: {fileID: 114168482529083588, guid: 5b4c6be96d16d6743a767d6315369c73,
+      type: 3}
+  - defaultController: {fileID: 9100000, guid: d79def1c19568eb41aad19af9fcbf632, type: 2}
+  - iScriptPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

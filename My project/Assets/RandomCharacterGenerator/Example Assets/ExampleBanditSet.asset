@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b4d27d168c3f44ab43e3015678d079, type: 3}
+  m_Name: ExampleBanditSet
+  m_EditorClassIdentifier: 
+  positioningMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 528
+  checkMask:
+    serializedVersion: 2
+    m_Bits: 3072
+  parent: {fileID: 0}
+  objectName: New Character
+  useRandomName: 1
+  characterName: 'Fari Foupi '
+  MaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
+  FemaleNamesList: {fileID: 4900000, guid: 260c9b762b2018d41a15928b97f920b9, type: 3}
+  maleImage: {fileID: 0}
+  femaleImage: {fileID: 0}
+  useRandomImage: 0
+  maleImages: []
+  femaleImages: []
+  stats: []
+  characterTemplate: {fileID: 1344878869640831525, guid: 56dee4363b43ce14f98e914571b7d025,
+    type: 3}
+  maleVariations:
+  - name: Collection 01
+    characterVariations:
+    - {fileID: 8908244363290362542, guid: 31e1d47cd02331f44a8e77894590337d, type: 3}
+    materialVariations:
+    - {fileID: 2100000, guid: e2c1903709c07d74b8e25a0770d52608, type: 2}
+  femaleVariations:
+  - name: Collection 01
+    characterVariations:
+    - {fileID: 8908244363290362542, guid: 921193e4695662046a47257fe773dd65, type: 3}
+    materialVariations:
+    - {fileID: 2100000, guid: 4867322cf20d67b4793834ccb7537591, type: 2}
+  genre: 2
+  defaultController: {fileID: 9100000, guid: d79def1c19568eb41aad19af9fcbf632, type: 2}
+  minSize: 0.9
+  maxSize: 1.2
+  materialVariations:
+  - {fileID: 2100000, guid: 5bb68a94905ffc0418608fc7e572ea42, type: 2}
+  - {fileID: 2100000, guid: dfab048ce97a1b844bef2e7d0899a02f, type: 2}
+  - {fileID: 2100000, guid: 5e8fc9c7c99b13c42a3462f542806e21, type: 2}
+  - {fileID: 2100000, guid: 2bf2f69a5c3f9eb45b1db58fb7f33a00, type: 2}
+  hairMaleVariations:
+  - {fileID: 6559226259554141662, guid: 32178c621a72cc343b513d20774b5c5e, type: 3}
+  - {fileID: 735273178119469621, guid: 60e8523d1768673438eb478dcc0e1529, type: 3}
+  hairFemaleVariations:
+  - {fileID: 6025307615887985758, guid: a8757fae11fc59b4b85528533c13593b, type: 3}
+  - {fileID: 1198257023000649174, guid: 02e989919241cac4a92229f9dff3b0fe, type: 3}
+  haveBear: 2
+  bearVariations:
+  - {fileID: 6494024619676889654, guid: 583d0e4bc3e99a34cbc7d4bbbc8c2a02, type: 3}
+  - {fileID: 2853655769213519565, guid: 1d6b3bb446bfcd1468b7bf1617ccdf8c, type: 3}
+  useMask: 2
+  maskVariations:
+  - {fileID: 100000, guid: 14348611c2564cd49b41660c45f342e7, type: 3}
+  - {fileID: 100000, guid: e6b42a5cdccfe094ca0df2d343f113e4, type: 3}
+  useBackPack: 2
+  backpackParentBone: 54
+  backpackVariations:
+  - {fileID: 8375344783895471915, guid: f1ee52f910f5ee54da6449b8cb52b7b3, type: 3}
+  - {fileID: 5496628107375247397, guid: ce3e0045e315c11459cc71d1a2e7f12f, type: 3}
+  iScriptPrefab: {fileID: 4135746888314586303, guid: 5473dab4209a78040bd2dc0550dccfe5,
+    type: 3}
+  useHelmet: 2
+  helmetVariation:
+  - objectVariations:
+    - {fileID: 3188651387397556789, guid: f8bcafa53b1af8a49a37d57354ec6728, type: 3}
+    - {fileID: 2824509843056199877, guid: 9e1613f3c5c047343b7cb0494a2ecba2, type: 3}
+    materialVariations:
+    - {fileID: 2100000, guid: 5bb68a94905ffc0418608fc7e572ea42, type: 2}
+    - {fileID: 2100000, guid: dfab048ce97a1b844bef2e7d0899a02f, type: 2}
+    - {fileID: 2100000, guid: 5e8fc9c7c99b13c42a3462f542806e21, type: 2}
+    - {fileID: 2100000, guid: 2bf2f69a5c3f9eb45b1db58fb7f33a00, type: 2}
+  useNameTargeting: 0
+  useArmourChest: 2
+  maleArmourChest: []
+  femaleArmourChest: []
+  shirtNameTarget: 0
+  pantsNameTarget: 0
+  bootsNameTarget: 0
+  glovesNameTarget: 0
+  useShirt: 2
+  usePants: 2
+  useBoots: 2
+  useGloves: 2
+  maleShirts: []
+  malePants: []
+  maleBoots: []
+  maleGloves: []
+  femaleShirts: []
+  femalePants: []
+  femaleBoots: []
+  femaleGloves: []
+  useShouldersProtection: 2
+  shoulders:
+  - LeftVariation: {fileID: 3497219084770165443, guid: 8276d794c47d7964b9b4ac94e265b0a1,
+      type: 3}
+    RightVariation: {fileID: 4331278370330373822, guid: 8a53863428c068948a7abfe8215c4189,
+      type: 3}
+  - LeftVariation: {fileID: 8078904548358019423, guid: 8aa70f431d0a9f947878462dc3e2eb35,
+      type: 3}
+    RightVariation: {fileID: 6204548688728564465, guid: 4f1e37e643396e44ab1a0608630dcbe6,
+      type: 3}
+  useWristsProtection: 2
+  wrists:
+  - LeftVariation: {fileID: 4237553826662088035, guid: 6b0334df613ccba49986c1ce3eeae078,
+      type: 3}
+    RightVariation: {fileID: 2538837923021577471, guid: ee5a99cb755e8bd4a90fef618b73da8d,
+      type: 3}
+  useThighsProtection: 2
+  thighs:
+  - LeftVariation: {fileID: 6000510422480534280, guid: 87d9e0ee01d4c5d45bdef9172ee9c904,
+      type: 3}
+    RightVariation: {fileID: 8249381266825600312, guid: 15f3b7f4c26a620469e0414843979125,
+      type: 3}
+  useKneeProtection: 2
+  knees:
+  - LeftVariation: {fileID: 7045550613365387163, guid: 6c2aabb79d55567479a9664f25792285,
+      type: 3}
+    RightVariation: {fileID: 6018746869685388687, guid: 93987cc15030ba148b40abbf462057ee,
+      type: 3}
+  - LeftVariation: {fileID: 106798387497075324, guid: 030b1a453e6c5044face8d5d2f69a3ed,
+      type: 3}
+    RightVariation: {fileID: 5143658199134370244, guid: ebc9d4f87ed340a4a85e163c468de294,
+      type: 3}
+  events:
+    events: []
+  customBehavioursModules:
+  - fold: 1
+    overrideLayer: 1
+    overrideTag: 1
+    overrideName: 0
+    layer: 11
+    tag: Survivor
+    name: 
+    module: {fileID: 3431594348350595577, guid: 5f642e2f4e02bbc4cac5f759397bd27d,
+      type: 3}
+    parent: {fileID: 0}
+    moduleUse: 1
+    useContainerAnimator: 1
+  moduleCount: 1
+  hasWeapon: 2
+  weapons:
+  - name: Collection 1
+    controller: {fileID: 22100000, guid: 10ee51fb36c6d26459ec569da227cfae, type: 2}
+    objectVariations:
+    - {fileID: 3337136731856788977, guid: f2280e9ed1c76134bb6a503d35fe6948, type: 3}
+    - {fileID: 8288075966545274779, guid: 231021298063b1f4a99b624556aee9f5, type: 3}
+    - {fileID: 2653192415520274498, guid: 4b3cb06e780188f49a4907b596d0f18a, type: 3}
+    materialVariations:
+    - {fileID: 2100000, guid: 5bb68a94905ffc0418608fc7e572ea42, type: 2}
+    - {fileID: 2100000, guid: dfab048ce97a1b844bef2e7d0899a02f, type: 2}
+    - {fileID: 2100000, guid: 5e8fc9c7c99b13c42a3462f542806e21, type: 2}
+    - {fileID: 2100000, guid: 2bf2f69a5c3f9eb45b1db58fb7f33a00, type: 2}
